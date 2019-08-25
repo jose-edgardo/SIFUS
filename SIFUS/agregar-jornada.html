@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Blank Page - Brand</title>
+    <title>AREGAR ARBITRO - SIFUS</title>
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
 </head>
 
-<body id="page-top" style="background-image: url(&quot;assets/img/campo.jpg&quot;);">
-    <div id="wrapper">
+<body id="page-top">
+    <div id="wrapper" style="background-image: url(&quot;assets/img/campo.jpg&quot;);background-size: auto;background-color: #307804;background-repeat: repeat-y;">
         <nav class="navbar navbar-light navbar-expand-sm bg-danger align-items-start align-self-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="filter: blur(0px) brightness(100%);background-image: url(&quot;assets/img/campo.jpg&quot;);background-color: rgb(18,67,2);background-repeat: repeat-y;background-size: auto;">
             <div class="container-fluid d-flex flex-column p-0">
                 <a class="navbar-brand text-justify d-md-flex d-lg-flex justify-content-md-center align-items-md-center align-items-lg-center sidebar-brand m-0" data-bs-hover-animate="bounce" href="index.html">
@@ -129,7 +129,69 @@
         </div>
         </nav>
         <div class="container-fluid">
-            <h3 class="text-dark mb-1">PAGINA EN BLANCO</h3><a class="btn btn-success btn-icon-split" role="button" style="margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;background-color: rgb(4,198,35);"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white d-none d-md-inline sr-only text">ACEPTAR</span></a></div>
+            <h3 class="text-dark mb-1">AGREGAR JORNADA</h3>
+            <div class="border rounded" style="margin-right: 10px;margin-left: 10px;">
+                <form>
+                    <div style="margin-top: 10px;margin-left: 15px;margin-right: 15px;max-width: 365px;"><span>NUMERO</span><span style="margin-left: 15px;">99</span></div>
+                    <div style="margin-top: 10px;margin-left: 15px;margin-right: 15px;max-width: 365px;"><span>DIA</span><input class="form-control" type="date" name="fecha" style="max-width: 350px;"></div>
+                    <div style="margin-top: 10px;margin-left: 15px;margin-right: 15px;max-width: 365px;"><span>HORA DEL PRIMER PARTIDO</span>
+                        <div class="d-md-flex justify-content-md-start align-items-md-center"><select class="custom-select" style="max-width: 100PX;" name="hora"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+                            <span
+                                style="margin-left: 5px;">:</span><select class="custom-select" style="max-width: 100PX;margin-left: 5px;" name="hora"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+                                <select
+                                    class="form-control" style="max-width: 78px;margin-left: 10px;">
+                                    <option value="AM" selected="">AM</option>
+                                    <option value="PM">PM</option>
+                                    </select>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;margin-left: 15px;margin-right: 15px;max-width: 365px;"><span>HORA DEL ULTIMO PARTIDO</span>
+                        <div class="d-md-flex justify-content-md-start align-items-md-center"><select class="custom-select" style="max-width: 100PX;" name="hora"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+                            <span
+                                style="margin-left: 5px;">:</span><select class="custom-select" style="max-width: 100PX;margin-left: 5px;" name="hora"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option></select>
+                                <select
+                                    class="form-control" style="max-width: 78px;margin-left: 10px;">
+                                    <option value="AM" selected="">AM</option>
+                                    <option value="PM">PM</option>
+                                    </select>
+                        </div>
+                    </div>
+                    <div class="text-left" style="margin-top: 10px;margin-left: 15px;margin-right: 15px;min-width: 0;max-width: none;margin-bottom: 15px;"><a class="btn btn-primary btn-icon-split" role="button" style="margin-left: 5px;"><span class="text-white-50 icon"><i class="fas fa-futbol" data-bs-hover-animate="wobble"></i></span><span class="text-white text">GENERAR PARTIDOS</span></a>
+                        <div><a class="btn btn-success btn-icon-split" role="button" style="margin-top: 5px;margin-bottom: 5px;margin-right: 5px;margin-left: 5px;"><span class="text-white-50 icon"><i class="fas fa-save"></i></span><span class="text-white d-none d-md-inline text">GUARDAR</span></a>
+                            <a
+                                class="btn btn-warning btn-icon-split" role="button" style="margin-right: 5px;margin-left: 5px;margin-top: 5px;margin-bottom: 5px;"><span class="text-white-50 icon"><i class="fas fa-exclamation-triangle"></i></span><span class="text-white d-none d-md-inline text">CANCELAR</span></a><a class="btn btn-danger btn-icon-split" role="button" style="margin-top: 0px;margin-right: 5px;margin-left: 5px;"><span class="text-white-50 icon"><i class="fas fa-trash"></i></span><span class="text-white d-none d-md-inline text">ELIMINAR</span></a></div>
+                    </div>
+                </form>
+                <div style="max-width: 600px;margin-right: 10px;margin-left: 10px;margin-bottom: 10px;margin-top: 10px;"><span class="text-center d-md-flex justify-content-md-center align-items-md-center" style="font-weight: bold;font-style: normal;">PARTIDOS</span>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>HORA</th>
+                                    <th>EQUIPO 1</th>
+                                    <th>EQUIPO 2</th>
+                                    <th>ARBITRO</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Cell 1</td>
+                                    <td>Cell 2</td>
+                                    <td>Cell 2</td>
+                                    <td>Cell 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Cell 3</td>
+                                    <td>Cell 4</td>
+                                    <td>Cell 4</td>
+                                    <td>Cell 4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="sticky-footer">
         <div class="container my-auto">
