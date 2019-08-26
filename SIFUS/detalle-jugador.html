@@ -36,7 +36,7 @@
                 <ul class="nav navbar-nav" id="accordionSidebar">
                     <li class="nav-item" role="presentation"></li>
                     <li class="nav-item" role="presentation" style="font-size: 13.6;">
-                        <li class="nav-item dropdown" style="font-size: 13.6PX;margin: 0PX;padding: 16PX;max-width: 160px;"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(255,255,255);"><i class="fas fa-clipboard-list" style="width: 26.31PX;height: 23px;font-size: 23px;"></i><span class="d-none d-md-inline-block flex-grow-1 flex-shrink-1">JORNADA</span></a>
+                        <li class="nav-item dropdown" style="font-size: 13.6PX;margin: 0PX;padding: 16PX;max-width: 160px;"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(255,255,255);"><i class="fas fa-clipboard-list" style="width: 26.31PX;height: 23px;font-size: 23px;"></i><span class="d-none d-md-inline-block flex-grow-1 flex-shrink-1">JORNADAS</span></a>
                             <div
                                 class="dropdown-menu text-uppercase text-justify" role="menu" style="margin-left: 15px;"><a class="dropdown-item" role="presentation" href="#">AGREGAR</a><a class="dropdown-item" role="presentation" href="#">VER</a><a class="dropdown-item" role="presentation" href="#">MODIFICAR</a></div>
             </li>
@@ -130,64 +130,75 @@
         </nav>
         <div class="container-fluid">
             <div class="d-flex d-md-flex align-items-xl-start" style="margin-bottom: 10PX;">
-                <h3 class="text-dark mb-1">DETALLE</h3>
+                <h6 class="text-dark mb-1">SIFUS&gt;EQUIPOS&gt;DETALLE DE JUGADOR<br></h6>
                 <div class="d-lg-flex ml-auto" style="margin-left: 10PX;"><a class="btn btn-warning btn-icon-split" role="button" style="margin-left: 10px;margin-right: 0px;"><span class="text-white-50 icon"><i class="fas fa-pencil-alt"></i></span><span class="text-white d-none d-md-inline text">MODIFICAR</span></a>
                     <a
                         class="btn btn-primary btn-icon-split" role="button" style="margin-right: 10px;margin-left: 10px;"><span class="text-white-50 icon"><i class="fas fa-print"></i></span><span class="text-white d-none d-md-inline text">IMPRIMIR</span></a>
                 </div>
             </div>
             <div class="border rounded" style="margin-right: 10px;margin-left: 10px;">
-                <form>
-                    <div class="form-row" style="margin-top: 5px;margin-right: 5px;margin-bottom: 5px;margin-left: 5px;">
-                        <div class="col" style="max-width: 225px;">
-                            <div class="text-center"><img class="img-fluid border rounded border-dark ml-auto" src="assets/img/balon.svg" style="max-width: 150PX;"></div>
-                        </div>
-                        <div class="col">
-                            <div class="table-responsive table-borderless">
-                                <table class="table table-bordered">
-                                    <tbody>
-                                        <tr>
-                                            <td style="width: 205px;">NOMBRES</td>
-                                            <td>AAAAA AAAAA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>APELLIDOS</td>
-                                            <td>AAAAA AAAAAA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>FECHA DE NACIMIENTO</td>
-                                            <td>99-99-9999</td>
-                                        </tr>
-                                        <tr>
-                                            <td>DIRECCION</td>
-                                            <td>AAAAA AAAA, AAAAA, AAAAA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>TELEFONO</td>
-                                            <td>9999-9999</td>
-                                        </tr>
-                                        <tr>
-                                            <td>EQUIPO</td>
-                                            <td>AAAAAAA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>CARGO</td>
-                                            <td>AAAAAAA</td>
-                                        </tr>
-                                        <tr>
-                                            <td>PARTIDOS JUGADOS</td>
-                                            <td>99</td>
-                                        </tr>
-                                        <tr>
-                                            <td>GOLES REALIZADOS</td>
-                                            <td>99</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="text-primary m-0 font-weight-bold">DETALLE JUGADOR</h6>
                     </div>
-                </form>
+                    <div class="card-body" style="padding: 10PX;">
+                        <form>
+                            <div class="form-row" style="margin-top: 5px;margin-right: 5px;margin-bottom: 5px;margin-left: 5px;">
+                                <div class="col" style="max-width: 225px;">
+                                    <div class="text-center"><img class="img-fluid border rounded border-dark ml-auto" src="assets/img/balon.svg" style="max-width: 150PX;"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="table-responsive table-borderless">
+                                        <table class="table table-bordered">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width: 205px;">NOMBRES</td>
+                                                    <td>AAAAA AAAAA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>APELLIDOS</td>
+                                                    <td>AAAAA AAAAAA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>FECHA DE NACIMIENTO</td>
+                                                    <td>99-99-9999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>DIRECCION</td>
+                                                    <td>AAAAA AAAA, AAAAA, AAAAA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TELEFONO</td>
+                                                    <td>9999-9999</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>EQUIPO</td>
+                                                    <td>AAAAAAA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CARGO</td>
+                                                    <td>AAAAAAA</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>PARTIDOS JUGADOS</td>
+                                                    <td>99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>GOLES REALIZADOS</td>
+                                                    <td>99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>AMONESTACIONES</td>
+                                                    <td>99:99</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

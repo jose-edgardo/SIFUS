@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>PERFIL - SIFUS</title>
+    <title>DETALLE ARBITRO - SIFUS</title>
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
@@ -25,7 +25,7 @@
 </head>
 
 <body id="page-top">
-    <div id="wrapper" style="background-image: url(&quot;assets/img/campo.jpg&quot;);">
+    <div id="wrapper" style="background-image: url(&quot;assets/img/campo.jpg&quot;);background-size: auto;background-color: #307804;background-repeat: repeat-y;">
         <nav class="navbar navbar-light navbar-expand-sm bg-danger align-items-start align-self-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="filter: blur(0px) brightness(100%);background-image: url(&quot;assets/img/campo.jpg&quot;);background-color: rgb(18,67,2);background-repeat: repeat-y;background-size: auto;">
             <div class="container-fluid d-flex flex-column p-0">
                 <a class="navbar-brand text-justify d-md-flex d-lg-flex justify-content-md-center align-items-md-center align-items-lg-center sidebar-brand m-0" data-bs-hover-animate="bounce" href="index.html">
@@ -129,98 +129,117 @@
         </div>
         </nav>
         <div class="container-fluid">
-            <h3 class="text-dark mb-4">PERFIL</h3>
-            <div class="row mb-3">
-                <div class="col-lg-4">
-                    <div class="card mb-3">
-                        <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="assets/img/avatars/avatar3.jpeg" width="160" height="160">
-                            <div class="mb-3"><button class="btn btn-primary btn-sm" type="button">Change Photo</button></div>
+            <div class="d-flex d-md-flex align-items-xl-start" style="margin-bottom: 10PX;">
+                <h6 class="text-dark mb-1">SIFUS&gt;JORNADAS&gt;VER JORNADA&gt;VER PARTIDO</h6>
+                <div class="d-lg-flex ml-auto" style="margin-left: 10PX;"><a class="btn btn-warning btn-icon-split" role="button" style="margin-left: 10px;margin-right: 0px;"><span class="text-white-50 icon"><i class="fas fa-pencil-alt"></i></span><span class="text-white d-none d-md-inline text">MODIFICAR</span></a>
+                    <a
+                        class="btn btn-primary btn-icon-split" role="button" style="margin-right: 10px;margin-left: 10px;"><span class="text-white-50 icon"><i class="fas fa-print"></i></span><span class="text-white d-none d-md-inline text">IMPRIMIR</span></a>
+                </div>
+            </div>
+            <div style="margin-right: 10px;margin-left: 10px;">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="text-primary m-0 font-weight-bold">PARTIDO&nbsp;</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive table-borderless">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td style="max-width: 150px;width: 150px;">JORNADA:</td>
+                                        <td>99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>DIA:</td>
+                                        <td>99-99-9999</td>
+                                    </tr>
+                                    <tr>
+                                        <td>HORA</td>
+                                        <td>99:99</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ARBITRO</td>
+                                        <td>AAAAAA AAAAAA</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="border rounded-0">
+                            <div class="row">
+                                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><img src="assets/img/balon.svg" style="max-width: 100PX;"></div>
+                                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><span style="font-size: 45px;">VS</span></div>
+                                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center"><img src="assets/img/balon.svg" style="max-width: 100PX;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><span>99</span></div>
+                                <div class="col"><span class="text-center d-xl-flex justify-content-xl-center align-items-xl-center">GOLES</span></div>
+                                <div class="col"><span class="d-xl-flex justify-content-xl-start align-items-xl-center">99</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><span>99</span></div>
+                                <div class="col"><span class="text-center d-xl-flex justify-content-xl-center align-items-xl-center">FALTAS</span></div>
+                                <div class="col"><span class="d-xl-flex justify-content-xl-start align-items-xl-center">99</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><span>99</span></div>
+                                <div class="col"><span class="text-center d-xl-flex justify-content-xl-center align-items-xl-center">TARJETAS AMARILLAS</span></div>
+                                <div class="col"><span class="d-xl-flex justify-content-xl-start align-items-xl-center">99</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-xl-flex justify-content-xl-end align-items-xl-center"><span>99</span></div>
+                                <div class="col"><span class="text-center d-xl-flex justify-content-xl-center align-items-xl-center">TARJETAS ROJAS</span></div>
+                                <div class="col"><span class="d-xl-flex justify-content-xl-start align-items-xl-center">99</span></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="row mb-3 d-none">
-                        <div class="col">
-                            <div class="card text-white bg-primary shadow">
-                                <div class="card-body">
-                                    <div class="row mb-2">
-                                        <div class="col">
-                                            <p class="m-0">Peformance</p>
-                                            <p class="m-0"><strong>65.2%</strong></p>
-                                        </div>
-                                        <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                    </div>
-                                    <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card text-white bg-success shadow">
-                                <div class="card-body">
-                                    <div class="row mb-2">
-                                        <div class="col">
-                                            <p class="m-0">Peformance</p>
-                                            <p class="m-0"><strong>65.2%</strong></p>
-                                        </div>
-                                        <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
-                                    </div>
-                                    <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="card mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0">AGREGAR ACCION</h6>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="card shadow mb-3">
-                                <div class="card-header py-3">
-                                    <p class="text-primary m-0 font-weight-bold">DATOS DEL USUARIO</p>
-                                </div>
-                                <div class="card-body">
-                                    <form>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="first_name"><strong>NOMBRES</strong><br></label><input class="form-control" type="text" placeholder="JUAN" name="first_name" autocomplete="off"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="last_name"><strong>APELLIDOS</strong><br></label><input class="form-control" type="text" placeholder="RODRIGUEZ" name="apellido" autocomplete="off"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="username"><strong>USUARIO</strong></label><input class="form-control" type="text" placeholder="JR0123" name="usuario" autocomplete="off"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="email"><strong>ROL</strong><br></label><input class="form-control" type="email" placeholder="ADMINISTRADOR" name="rol" autocomplete="off"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">GUARDAR CAMBIOS</button></div>
-                                    </form>
-                                </div>
-                            </div>
-                            <div class="card shadow">
-                                <div class="card-header py-3">
-                                    <p class="text-primary m-0 font-weight-bold">INFORMACION DE CONTACTO</p>
-                                </div>
-                                <div class="card-body">
-                                    <form>
-                                        <div class="form-group"><label for="address"><strong>DIRECCION</strong></label><input class="form-control" type="text" placeholder="Calle Daniel Diaz San Vicente" name="direccion" autocomplete="off"></div>
-                                        <div class="form-row">
-                                            <div class="col">
-                                                <div class="form-group"><label for="city"><strong>TELEFONO</strong></label><input class="form-control" type="text" placeholder="7735-8931" name="telefono" autocomplete="off"></div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group"><label for="country"><strong>CORREO</strong></label><input class="form-control" type="text" placeholder="CORREO@CORREO.COM" name="correo" autocomplete="off"></div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group"><button class="btn btn-primary btn-sm" type="submit">Save&nbsp;Settings</button></div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-row" style="margin: 5PX;margin-right: 5PX;margin-top: 5PX;">
+                                <div class="col text-center" style="width: 150px;max-width: 150px;"><span>ACCION</span><select class="form-control mx-auto" style="margin-right: 10px;margin-left: 10px;width: 100px;max-width: 100px;" name="accion"><optgroup label="ACCION"><option value="1" selected="">GOL</option><option value="2">FALTA</option></optgroup></select></div>
+                                <div
+                                    class="col text-center align-items-xl-center" style="width: 200px;max-width: 200px;"><span>EQUIPO</span><select class="form-control"><option value="1" selected="">AAAAA</option><option value="2">AAAAA</option></select></div>
+                            <div class="col text-center"><span>JUGADOR</span><select class="form-control"><optgroup label="JUGADOR DE LA ACCION"><option value="1" selected="">AAAAA</option><option value="2">AAAAA</option><option value="3">AAAAA</option></optgroup></select></div>
+                            <div
+                                class="col text-center"><span>AMONESTACION</span><select class="form-control"><optgroup label="TIPO DE AMONESTACION"><option value="1">NINGUNA</option><option value="2" selected="">TARJETA AMARILLA</option><option value="3">TARJETA ROJA</option></optgroup></select></div>
+                </div>
+                <div class="text-right"><a class="btn btn-success ml-auto btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-check"></i></span><span class="text-white text">ACEPTAR</span></a></div>
+                </form>
+            </div>
+        </div>
+        <div class="shadow card"><a class="btn btn-link text-left card-header font-weight-bold" data-toggle="collapse" aria-expanded="true" aria-controls="collapse-4" href="#collapse-4" role="button">ACCIONES</a>
+            <div class="collapse show" id="collapse-4">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="max-width: 100PX;width: 100PX;">MINUTO</th>
+                                    <th style="width: 200PX;max-width: 200PX;">ACCION</th>
+                                    <th style="width: 250PX;max-width: 250PX;">JUGADOR</th>
+                                    <th>DETALLE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>99</td>
+                                    <td>AAAAAA</td>
+                                    <td>AAAAAA</td>
+                                    <td>AAAAAA</td>
+                                </tr>
+                                <tr></tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <footer class="sticky-footer">
         <div class="container my-auto">

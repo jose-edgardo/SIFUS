@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>LISTA JUGADOR - SIFUS</title>
+    <title>LISTA USUARIO - SIFUS</title>
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
     <link rel="icon" type="image/svg+xml" sizes="194x194" href="assets/img/balon.svg">
@@ -36,7 +36,7 @@
                 <ul class="nav navbar-nav" id="accordionSidebar">
                     <li class="nav-item" role="presentation"></li>
                     <li class="nav-item" role="presentation" style="font-size: 13.6;">
-                        <li class="nav-item dropdown" style="font-size: 13.6PX;margin: 0PX;padding: 16PX;max-width: 160px;"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(255,255,255);"><i class="fas fa-clipboard-list" style="width: 26.31PX;height: 23px;font-size: 23px;"></i><span class="d-none d-md-inline-block flex-grow-1 flex-shrink-1">JORNADA</span></a>
+                        <li class="nav-item dropdown" style="font-size: 13.6PX;margin: 0PX;padding: 16PX;max-width: 160px;"><a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color: rgb(255,255,255);"><i class="fas fa-clipboard-list" style="width: 26.31PX;height: 23px;font-size: 23px;"></i><span class="d-none d-md-inline-block flex-grow-1 flex-shrink-1">JORNADAS</span></a>
                             <div
                                 class="dropdown-menu text-uppercase text-justify" role="menu" style="margin-left: 15px;"><a class="dropdown-item" role="presentation" href="#">AGREGAR</a><a class="dropdown-item" role="presentation" href="#">VER</a><a class="dropdown-item" role="presentation" href="#">MODIFICAR</a></div>
             </li>
@@ -129,7 +129,7 @@
         </div>
         </nav>
         <div class="container-fluid">
-            <h3 class="text-dark mb-4">JUGADORES</h3>
+            <h6 class="text-dark mb-4">SIFUS&gt;JUGADORES&gt;LISTADO DE JUGADORES</h6>
             <div class="card shadow">
                 <div class="card-header py-3">
                     <p class="text-primary m-0 font-weight-bold">LISTADO DE JUGADORES</p>
@@ -144,7 +144,8 @@
                         </div>
                         <div class="col-md-6"><span></span></div>
                         <div class="col-md-6">
-                            <div class="text-md-right dataTables_filter" id="dataTable_filter"><a class="btn btn-primary btn-icon-split" role="button"><span class="text-white-50 icon"><i class="fas fa-print"></i></span><span class="text-white text">IMPRIMIR</span></a><label></label></div>
+                            <div class="text-md-right dataTables_filter" id="dataTable_filter"><a class="btn btn-info btn-icon-split" role="button" style="margin-right: 10px;margin-left: 10px;"><span class="text-white-50 icon"><i class="fas fa-plus-circle"></i></span><span class="text-white text">NUEVO</span></a><a class="btn btn-primary btn-icon-split"
+                                    role="button" style="margin-left: 10px;margin-right: 10px;"><span class="text-white-50 icon"><i class="fas fa-print"></i></span><span class="text-white text">IMPRIMIR</span></a><label></label></div>
                         </div>
                     </div>
                     <div class="table-responsive table mt-2" id="dataTable" role="grid" aria-describedby="dataTable_info">
@@ -168,6 +169,16 @@
                                     <td>Activo</td>
                                     <td class="text-center"><a class="btn btn-warning border rounded btn-circle ml-1" role="button" data-bs-hover-animate="pulse" style="margin-left: 5px;margin-right: 5px;"><i class="fas fa-pencil-alt text-white"></i></a><a class="btn btn-warning border rounded btn-circle ml-1"
                                             role="button" data-bs-hover-animate="pulse" style="margin-left: 5px;margin-right: 5px;background-color: rgb(255,77,0);"><i class="fas fa-times-circle text-white"></i></a><a class="btn btn-danger border rounded btn-circle ml-1"
+                                            role="button" data-bs-hover-animate="pulse" style="margin-right: 5px;margin-left: 5px;"><i class="fas fa-trash text-white"></i></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img class="rounded-circle mr-2" width="30" height="30" src="assets/img/DM.png">Diego Maradona</td>
+                                    <td>DM0123</td>
+                                    <td>AGUILA</td>
+                                    <td>58</td>
+                                    <td>Inactivo</td>
+                                    <td class="text-center"><a class="btn btn-warning border rounded btn-circle ml-1" role="button" data-bs-hover-animate="pulse" style="margin-left: 5px;margin-right: 5px;"><i class="fas fa-pencil-alt text-white"></i></a><a class="btn btn-warning border rounded btn-circle ml-1"
+                                            role="button" data-bs-hover-animate="pulse" style="margin-left: 5px;margin-right: 5px;background-color: rgb(82,255,0);"><i class="fa fa-check-circle text-white"></i></a><a class="btn btn-danger border rounded btn-circle ml-1"
                                             role="button" data-bs-hover-animate="pulse" style="margin-right: 5px;margin-left: 5px;"><i class="fas fa-trash text-white"></i></a></td>
                                 </tr>
                             </tbody>
